@@ -1,0 +1,85 @@
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.3);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    height: 80%;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+    z-index: 1000;
+    padding: 20px;
+
+}
+
+.inputContainer {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.inputContainer::-webkit-scrollbar-track
+{
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.inputContainer::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.inputContainer::-webkit-scrollbar-thumb
+{
+    background-color: #D8D8D8;
+}
+
+.btnContainer {
+    width: 100%;
+    gap: 30px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.additional {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputSetting {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.forSelect {
+    width: 100%;
+}

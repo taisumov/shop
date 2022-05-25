@@ -1,0 +1,67 @@
+.switchButton {
+    width: 50%;
+    height: 50px;
+    font-family: 'RF Tone', serif;
+    background: #EFEFEF;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
+    position: relative;
+    padding-right: 50%;
+    border: 2px solid #EFEFEF;
+}
+.switchButton:before {
+    width: 50%;
+    height: 50px;
+    content: "Регистрация";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+}
+.switchButtonCheckbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+.switchButtonCheckbox:checked + .switchButtonLabel:before {
+    transform: translateX(100%);
+    transition: transform 300ms linear;
+}
+.switchButtonCheckbox + .switchButtonLabel {
+    position: relative;
+    padding: 15px 0;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+.switchButtonCheckbox + .switchButtonLabel:before {
+    content: "";
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    transform: translateX(0);
+    transition: transform 300ms;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.switchButtonCheckbox + .switchButtonLabel .switchButtonLabelSpan {
+    position: relative;
+}

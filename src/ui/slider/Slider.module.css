@@ -1,0 +1,19 @@
+.forSwiper {
+    max-width: 500px;
+    height: 500px;
+}
+
+.sliderItem {
+
+}
+
+.sliderImage {
+    object-fit: cover;
+    /*max-width: 500px;*/
+    width: 100%;
+    height: 500px;
+}
+
+:global(.swiper-scrollbar) {
+    height: 3px !important;
+}

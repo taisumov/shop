@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-ExtraBold.eot');
+    src: local('RF Tone ExtraBold'), local('RFTone-ExtraBold'),
+        url('RFTone-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-ExtraBold.woff2') format('woff2'),
+        url('RFTone-ExtraBold.woff') format('woff'),
+        url('RFTone-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-BoldItalic.eot');
+    src: local('RF Tone Bold Italic'), local('RFTone-BoldItalic'),
+        url('RFTone-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-BoldItalic.woff2') format('woff2'),
+        url('RFTone-BoldItalic.woff') format('woff'),
+        url('RFTone-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-UltraLight.eot');
+    src: local('RF Tone UltraLight'), local('RFTone-UltraLight'),
+        url('RFTone-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-UltraLight.woff2') format('woff2'),
+        url('RFTone-UltraLight.woff') format('woff'),
+        url('RFTone-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-Italic.eot');
+    src: local('RF Tone Italic'), local('RFTone-Italic'),
+        url('RFTone-Italic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-Italic.woff2') format('woff2'),
+        url('RFTone-Italic.woff') format('woff'),
+        url('RFTone-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-SemiBoldItalic.eot');
+    src: local('RF Tone SemiBold Italic'), local('RFTone-SemiBoldItalic'),
+        url('RFTone-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-SemiBoldItalic.woff2') format('woff2'),
+        url('RFTone-SemiBoldItalic.woff') format('woff'),
+        url('RFTone-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-ExtraBoldItalic.eot');
+    src: local('RF Tone ExtraBold Italic'), local('RFTone-ExtraBoldItalic'),
+        url('RFTone-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-ExtraBoldItalic.woff2') format('woff2'),
+        url('RFTone-ExtraBoldItalic.woff') format('woff'),
+        url('RFTone-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-Light.eot');
+    src: local('RF Tone Light'), local('RFTone-Light'),
+        url('RFTone-Light.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-Light.woff2') format('woff2'),
+        url('RFTone-Light.woff') format('woff'),
+        url('RFTone-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-ExtraLightItalic.eot');
+    src: local('RF Tone ExtraLight Italic'), local('RFTone-ExtraLightItalic'),
+        url('RFTone-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-ExtraLightItalic.woff2') format('woff2'),
+        url('RFTone-ExtraLightItalic.woff') format('woff'),
+        url('RFTone-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-ExtraLight.eot');
+    src: local('RF Tone ExtraLight'), local('RFTone-ExtraLight'),
+        url('RFTone-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-ExtraLight.woff2') format('woff2'),
+        url('RFTone-ExtraLight.woff') format('woff'),
+        url('RFTone-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-Regular.eot');
+    src: local('RF Tone Regular'), local('RFTone-Regular'),
+        url('RFTone-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-Regular.woff2') format('woff2'),
+        url('RFTone-Regular.woff') format('woff'),
+        url('RFTone-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-Bold.eot');
+    src: local('RF Tone Bold'), local('RFTone-Bold'),
+        url('RFTone-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-Bold.woff2') format('woff2'),
+        url('RFTone-Bold.woff') format('woff'),
+        url('RFTone-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-SemiBold.eot');
+    src: local('RF Tone SemiBold'), local('RFTone-SemiBold'),
+        url('RFTone-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-SemiBold.woff2') format('woff2'),
+        url('RFTone-SemiBold.woff') format('woff'),
+        url('RFTone-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-Black.eot');
+    src: local('RF Tone Black'), local('RFTone-Black'),
+        url('RFTone-Black.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-Black.woff2') format('woff2'),
+        url('RFTone-Black.woff') format('woff'),
+        url('RFTone-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-LightItalic.eot');
+    src: local('RF Tone Light Italic'), local('RFTone-LightItalic'),
+        url('RFTone-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-LightItalic.woff2') format('woff2'),
+        url('RFTone-LightItalic.woff') format('woff'),
+        url('RFTone-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-UltraLightItalic.eot');
+    src: local('RF Tone UltraLight Italic'), local('RFTone-UltraLightItalic'),
+        url('RFTone-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-UltraLightItalic.woff2') format('woff2'),
+        url('RFTone-UltraLightItalic.woff') format('woff'),
+        url('RFTone-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('RFTone-BlackItalic.eot');
+    src: local('RF Tone Black Italic'), local('RFTone-BlackItalic'),
+        url('RFTone-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFTone-BlackItalic.woff2') format('woff2'),
+        url('RFTone-BlackItalic.woff') format('woff'),
+        url('RFTone-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+

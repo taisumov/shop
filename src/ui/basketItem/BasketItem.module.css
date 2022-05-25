@@ -1,0 +1,39 @@
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+}
+
+.image img {
+    display: block;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.basketItem {
+    display: flex;
+    gap: 20px;
+}
+
+.basketItemInfo {
+
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header {
+    display: block;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    text-overflow: ellipsis;
+}
+
+.price {
+    color: #A18A68;
+    font-family: 'RF Tone Light', serif;
+}

@@ -1,0 +1,27 @@
+.userItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.userAvatar {
+    align-self: center;
+    /*margin-right: 30px;*/
+    grid-area: a;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.userAvatar img{
+    display: block;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

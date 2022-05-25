@@ -1,0 +1,6 @@
+export const ADMIN_ROUTE = '/admin'
+export const AUTH_ROUTE = '/auth'
+export const SHOP_ROUTE = '/shop'
+export const ITEM_ROUTE = '/item'
+export const PROFILE_ROUTE = '/profile'
+export const SEARCH_ROUTE = '/search'

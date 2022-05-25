@@ -1,0 +1,301 @@
+.App {
+    margin: 0 96px;
+    font-family: 'RF Tone', serif;
+}
+
+/*Для авторизации*/
+
+.auth-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.auth-form-container {
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.shopItem {
+    margin-top: 100px;
+}
+
+/*Для страницы одного товара*/
+
+.itemFirstInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 60px;
+}
+
+.itemSlider {
+    align-self: flex-end;
+}
+
+.itemContent {
+    align-self: flex-start;
+}
+
+.itemTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.itemPrice {
+    color: #A18A68;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 26px;
+}
+
+.itemAbout {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #707070;
+}
+
+/*Для страницы профиля*/
+
+.profile {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileNav {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    border-bottom: 1px solid #D8D8D8;
+    cursor: pointer;
+}
+
+.profileNav__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #707070;
+    padding-bottom: 25px;
+}
+
+.profileNav__item.active {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    border-bottom: 1px solid black;
+}
+
+.profileSettings {
+    display: flex;
+    justify-content: center;
+}
+
+.userBasicInfo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "a n" "a m";
+}
+
+.userName {
+    grid-area: n;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 43px;
+    justify-self: flex-start;
+}
+
+.userName h3 {
+    margin: 0;
+}
+
+.userMail {
+    grid-area: m;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #707070;
+    justify-self: flex-start;
+}
+
+.userAvatar {
+    align-self: center;
+    margin-right: 30px;
+    grid-area: a;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.userAvatar img{
+    display: block;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.adminUsers {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+}
+
+.adminUserList {
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.adminUserListContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categoryContainer {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+    box-sizing: inherit;
+}
+
+.categoryList {
+    padding: 0 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.categoryItem {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.shopContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopItemList {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, 250px);
+}
+
+.swiperRecs {
+    display: flex;
+    max-width: 100vw;
+    height: 500px;
+}
+
+.centeredHeader {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.voiceSearch {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputVoiceSearch {
+    width: 500px;
+}
+
+.searchHeader {
+    font-family: 'RF Tone Light', serif;
+}
+
+.autocompleteContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 550px;
+    height: 60px;
+
+}
+
+.autoComplete {
+    background-color: rgba(243, 243, 243, 0.64);
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.searchRecs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiperMain {
+    width: 1000px;
+    align-self: center;
+    display: inline-block;
+}
+
+.mainSwipeItem {
+    position: relative;
+    padding: 0;
+    height: 500px;
+}
+
+.mainSwipeItem img{
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .App {
+        margin: 0 16px;
+    }
+
+    .nav {
+        margin-top: 15px;
+    }
+}

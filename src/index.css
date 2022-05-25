@@ -1,0 +1,41 @@
+/*Обычный*/
+@font-face {
+  font-family: "RF Tone";
+  src: url("./static/fonts/RFTone/RFTone-Regular.woff2");
+}
+/*Жирный*/
+@font-face {
+  font-family: "RF Tone Bold";
+  src: url("./static/fonts/RFTone/RFTone-Bold.woff2");
+}
+/*Курсив*/
+@font-face {
+  font-family: "RF Tone Italic";
+  src: url("./static/fonts/RFTone/RFTone-Italic.woff2");
+}
+
+/*Курсив*/
+@font-face {
+  font-family: "RF Tone Light";
+  src: url("./static/fonts/RFTone/RFTone-Light.woff2");
+}
+
+body {
+  margin: 0;
+}
+
+body::-webkit-scrollbar-track
+{
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar
+{
+  width: 7px;
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #D8D8D8;
+}
